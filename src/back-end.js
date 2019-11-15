@@ -4,7 +4,7 @@ export class Galactic {
     this.average = 80;
   }
 
-  mercuryChecker() {
+    mercuryChecker() {
     let age = this.age;
     const mercury = 0.24;
     const average = this.average;
