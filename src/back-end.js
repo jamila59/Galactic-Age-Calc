@@ -1,4 +1,4 @@
-export class Galaxy {
+export class Galactic {
   constructor(age){
     this.age = age;
     this.average = 80;
@@ -10,14 +10,14 @@ export class Galaxy {
     const average = this.average;
     let mercuryAge = (age / mercury);
     let output = []
-    let yearsBefore = (average - mercuryAge);
-    let yearsAfter = (mercuryAge - average);
-
-    if (age <= mercuryAge) {
-      output.push("you have " + yearsBefore + "before life expectancy")
-    } else  {
-      output.push("you have exceeded " + yearsAfter + "of life expectancy")
-    }
-    return ("you are " + answer + " years old in mercury " + output);
+    // let yearsBefore = (average - mercuryAge);
+    // let yearsAfter = (mercuryAge - average);
+    //
+    // if (age <= mercuryAge) {
+    //   output.push("you have " + yearsBefore + "before your life expectancy")
+    // } else  {
+    //   output.push("you have exceeded " + yearsAfter + "of your life expectancy")
+    // }
+    return ("you are " + mercuryAge + "years old on Mercury " + output);
   }
 };

@@ -1,4 +1,4 @@
-import { Galactic } from './../src/back-end.js';
+import { Galactic }  from './../src/back-end.js';
 import mercuryChecker from './../src/back-end.js';
 
 describe('Galactic', () => {
@@ -11,6 +11,6 @@ beforeEach(function() {
   });
 
   test('should convert user Earth age to Mercury age', () => {
-  expect(input2.mercuryChecker()).toEqual(" you are " + 12.5 + " years old in mercury ");
+  expect(input.mercuryChecker()).toEqual("you are " + 12.5 + "years old on Mercury ");
  });
 })
