@@ -2,13 +2,17 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import $ from 'jquery';
-import {  } from './back-end';
+import { Galactic } from './back-end';
 
 
 $(document).ready(function() {
   $("form#conversionForm").submit(function(event) {
     event.preventDefault();
-    input = new Galactic(3);
-    input.mercuryAge();
+    let userAge = parseInt($("input#userAge").val());
+    input = new Galactic(userAge);
+    input.mercuryChecker();
+    input.venusChecker();
+    input.marsChecker();
+    input.jupiterChecker();
   });
 });
