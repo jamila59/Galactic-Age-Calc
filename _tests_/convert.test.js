@@ -7,15 +7,20 @@ describe('Galactic', () => {
   let input2;
 
 beforeEach(function() {
-    input = new Galactic(3);
+    input = new Galactic(6);
     input2 = new Galactic(81);
   });
 
   test('should convert user Earth age to Mercury age and test how much the user has of life expectancy', () => {
-  expect(input.mercuryChecker()).toEqual("you are " + 12.5 + "years old on Mercury you have 67.5 years before your life expectancy");
- });
+  expect(input.mercuryChecker()).toEqual("you are " + 25 + "years old on Mercury you have 55 years before your life expectancy");
+  });
 
  test('should convert user Earth age to Venus age and test how many years the user exceeds by', () => {
- expect(input2.venusChecker()).toEqual("you are " + 130.6451612903226 + "years old on Venus you have exceeded 51years of your life expectancy");
+ expect(input2.venusChecker()).toEqual("you are " + 131 + "years old on Venus you have exceeded 51years of your life expectancy");
+  });
+
+  test('should convert user Earth age to Mars age and test how much the user has of life expectance', () => {
+  expect(input.marsChecker()).toEqual("you are " + 4 + "years old on Mars you have 76 years before your life expectancy");
+
 })
-})
+});
