@@ -28,13 +28,13 @@ export class Galactic {
   const average = this.average;
   let venusAge = (age / venus);
   let output = []
-  let yearsBefore = Math.round(average - venusAge);
-  let yearsAfter = parseInt(venusAge - average);
+  let yearsBefore = Math.round((average - venusAge))
+  let yearsAfter = Math.round((venusAge - average));
 
-  if (age <= venusAge) {
+  if (average >= venusAge) {
     output.push("you have " + yearsBefore + " years before your life expectancy")
   } else  {
-    output.push("you have exceeded " + yearsAfter + "of your life expectancy")
+    output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
   }
   return ("you are " + venusAge + "years old on Venus " + output);
   }
