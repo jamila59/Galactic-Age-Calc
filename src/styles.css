@@ -1,14 +1,16 @@
 .jumbotron{
   text-align: center;
+  opacity: 0.66;
+  background-color: #e9d9eb
+  
+
+
 }
-.background {
-  height: 100%;
- background-repeat: no-repeat;
- background-size: cover;
-}
+
 body {
-background-image: url(https://wallpaperaccess.com/full/17520.jpg);
-height: 100%;
-background-repeat: no-repeat;
-background-size: cover;
+  background: url(http://www.textures4photoshop.com/tex/thumbs/galaxy-space-background-free-thumb28.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  color: black;
 }
