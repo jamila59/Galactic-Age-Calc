@@ -8,5 +8,7 @@ import {  } from './back-end';
 $(document).ready(function() {
   $("form#conversionForm").submit(function(event) {
     event.preventDefault();
+    input = new Galactic(3);
+    input.mercuryAge();
   });
 });
