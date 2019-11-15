@@ -1,21 +1,19 @@
-# _{Application Name}_
+# _Super Galactic Age_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Brief description of application, November 15,2019 _
 
-#### By _**{List of contributors}**_
+#### By _**Jamila Aliyeva**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_In this application the user can enter their age in the field. The user is then displayed the converted version of their Earth age to their age on Mars,Venus,Jupiter and Mercury._
 
 ## Setup/Installation Requirements
 
-* __
-* __
-* __
-* __
-* __
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone repository from https://github.com/jamila59/Galactic-Age-Calcusing "git clone"_
+* _Install all current webpacks using "npm install"_
+* _Run the application through "npm run build" command_
+* _Open application in server using "npm run start"_
 
 ## Specs
 * _User enters age and receives output of their age on Mercury_
@@ -25,13 +23,21 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * _User is read back how many years are left to live on each planet_
 
 
-
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _Javascript_
+* _Node.js_
+* _Babble_
+* _Jest_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT License copyright (c) 2019 {Jamila Aliyeva}
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+
+Copyright (c) 2016 **_{Jamila Aliyeva}_**
