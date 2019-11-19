@@ -7,14 +7,13 @@ import { Galactic} from './back-end';
 
 
 $(document).ready(function() {
-  $("form#conversionForm").submit(function(event) {
+  $("form#formOne").submit(function(event) {
     event.preventDefault();
     let userAge = parseInt($("input#userAge").val());
-    debugger;
     let input = new Galactic(userAge);
-    (".hiddenMercury").text(input.mercuryChecker());
-    (".hiddenVenus").text(input.venusChecker());
-    (".hiddenMars").text(input.marsChecker());
-    (".hiddenJupiter").text(input.jupiterChecker());
+    $(".hiddenMercury").text(input.mercuryChecker());
+    $(".hiddenVenus").text(input.venusChecker());
+    $(".hiddenMars").text(input.marsChecker());
+    $(".hiddenJupiter").text(input.jupiterChecker());
   });
 });

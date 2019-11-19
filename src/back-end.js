@@ -13,12 +13,12 @@ export class Galactic {
     let yearsBefore = Math.round(average - mercuryAge);
     let yearsAfter = Math.round(mercuryAge - average);
 
-    if (age <= mercuryAge) {
+    if (age >= mercuryAge) {
       output.push("you have " + yearsBefore + " years before your life expectancy")
     } else  {
-      output.push("you have exceeded " + yearsAfter + "of your life expectancy")
+      output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
     }
-    return ("you are " + mercuryAge + "years old on Mercury " + output);
+    return (mercuryAge + "years old on Mercury " + output);
   }
 
 
@@ -34,9 +34,9 @@ export class Galactic {
     if (average >= venusAge) {
       output.push("you have " + yearsBefore + " years before your life expectancy")
     } else  {
-      output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
+      output.push("you have exceeded " + yearsAfter + "years of your life expectancy" )
     }
-    return ("you are " + venusAge + "years old on Venus " + output);
+    return  (venusAge + "years old on Venus " + output);
   }
 
   marsChecker() {
@@ -53,7 +53,7 @@ export class Galactic {
     } else  {
       output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
     }
-    return ("you are " + marsAge + "years old on Mars " + output);
+    return (marsAge + "years old on Mars " + output);
   }
 
   jupiterChecker() {
@@ -70,6 +70,6 @@ export class Galactic {
     } else  {
       output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
     }
-    return ("you are " + jupiterAge + "years old on Jupiter " + output);
+    return (jupiterAge + "years old on Jupiter " + output);
     }
   }

@@ -2,13 +2,14 @@
   text-align: center;
   opacity: 0.66;
   background-color: #e9d9eb
-  
+
 
 
 }
 
 body {
   background: url(http://www.textures4photoshop.com/tex/thumbs/galaxy-space-background-free-thumb28.jpg) no-repeat center center fixed;
+  /* url("img/galaxy.jpg") */
   background-size: cover;
   height: 100%;
   overflow: hidden;
