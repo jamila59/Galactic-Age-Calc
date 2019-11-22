@@ -15,5 +15,6 @@ $(document).ready(function() {
     $(".hiddenVenus").text(input.venusChecker());
     $(".hiddenMars").text(input.marsChecker());
     $(".hiddenJupiter").text(input.jupiterChecker());
+    output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
   });
 });

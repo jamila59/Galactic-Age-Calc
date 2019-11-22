@@ -16,11 +16,11 @@ _In this application the user can enter their age in the field. The user is then
 * _Open application in server using "npm run start"_
 
 ## Specs
-* _User enters age and receives output of their age on Mercury_
-* _User enters age and receives output of their age on Mars
-* _User enters age and receives output of their age on Venus
-* _User enters age and receives output of their age on Jupiter
-* _User is read back how many years are left to live on each planet_
+* _User enters age and receives output of their age on Mercury (Input: 25 years)(Output: 104 years)_
+* _User enters age and receives output of their age on Mars(Input: 25 years)(Output: 13 years)_
+* _User enters age and receives output of their age on Venus(Input: 25 years)(Output: 40 years)_
+* _User enters age and receives output of their age on Jupiter(Input: 25 years)(Output: 2 years)_
+* _User is read back how many years are left to live on each planet(Input: 25 years)(Output: 24 years)_
 
 
 ## Technologies Used

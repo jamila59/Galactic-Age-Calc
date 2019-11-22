@@ -10,20 +10,20 @@ beforeEach(function() {
   });
 
 test('should convert user Earth age to Mercury age and test how much the user has of life expectancy', () => {
-expect(input.mercuryChecker()).toEqual("you are " + 25 + "years old on Mercury you have 55 years before your life expectancy");
+expect(input.mercuryChecker()).toEqual(25 + "years old on Mercury you have 55 years before your life expectancy");
 });
 
 test('should convert user Earth age to Venus age and test how many years the user exceeds by', () => {
-expect(input2.venusChecker()).toEqual("you are " + 131 + "years old on Venus you have exceeded 51years of your life expectancy");
+expect(input2.venusChecker()).toEqual(131 + "years old on Venus you have exceeded 51years of your life expectancy");
 });
 
 test('should convert user Earth age to Mars age and test how much the user has of life expectance', () => {
-expect(input.marsChecker()).toEqual("you are " + 3 + "years old on Mars you have 77 years before your life expectancy");
+expect(input.marsChecker()).toEqual(3 + "years old on Mars you have 77 years before your life expectancy");
 
 })
 
 test('should convert user Earth age to Jupiter age and test how much the user has of life expectance', () => {
-expect(input.jupiterChecker()).toEqual("you are " + 1 + "years old on Jupiter you have 79 years before your life expectancy");
+expect(input.jupiterChecker()).toEqual(1 + "years old on Jupiter you have 79 years before your life expectancy");
 
   })
 });

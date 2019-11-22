@@ -13,7 +13,7 @@ export class Galactic {
     let yearsBefore = Math.round(average - mercuryAge);
     let yearsAfter = Math.round(mercuryAge - average);
 
-    if (age >= mercuryAge) {
+    if (average >= mercuryAge) {
       output.push("you have " + yearsBefore + " years before your life expectancy")
     } else  {
       output.push("you have exceeded " + yearsAfter + "years of your life expectancy")
